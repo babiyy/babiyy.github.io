@@ -1,3 +1,4 @@
+
 <html lang="en" data-bs-theme="">
 <head>
     <meta charset="UTF-8">
@@ -96,7 +97,7 @@
                 <p class="display-6 fn-bold ">Select Your Vehicle</p>
                 <p class="text-muted fn-bold m-">Provide Vehicle details to confirm fitment</p>
                
-                <div class="d-lg-flex">
+                <div class="d-md-flex">
                     <div class="dropdown mx-3  my-3">
                         <button class="btn btn-lg  btn-outline-success dropdown-toggle px-4" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                           1 | YEAR
@@ -273,12 +274,6 @@
                 </div>
             </div>
         </div>
-        
-
-        
-           
-       
-
 
     </div>
 </section>
@@ -288,5 +283,47 @@
 
 
     <!--reviews list-->
+    <!--contact forme-->
+    <section id="contact">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Get in Touch</h2>
+                <p class="lead">Quastion to ask? Fill out the form to contact me directly</p>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-6">
+                    <form action="">
+                        <label for="emal" class="form-label">Email address:</label>
+                        <input type="text" class="form-control" id="email" placeholder="e.g.prodotii@exampel.com">
+
+                        <label for="passwod" class="form-label">Name:</label>
+                        <input type="text" class="form-control"  placeholder="Name">
+
+                        <label for="subject" class="form-label">What is your quastion about?</label>
+                        <select class="form-select" id="subject">
+                            <option value="pricing" selected>Prising query</option>
+                            <option value="contact" >Contact query</option>
+                            <option value="other" >other query</option>
+                        </select>
+
+                        <div class="form-floating mb-4 mt-5">
+                            <textarea name="" id="query" class="form-control" style="height: 140px;"></textarea>
+                            <label for="query">You query...</label>
+
+                        </div>
+                        
+                        
+
+                        <div class="text-center">
+                        <button class="btn btn-outline-success my-3 " >submit</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
 </body>
 </html>
