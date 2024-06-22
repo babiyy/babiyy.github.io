@@ -6,3 +6,7 @@ $primary : #337ab7;
 
 // import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.c-img{
+  object-fit: (0.6);
+}
